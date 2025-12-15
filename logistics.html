@@ -2,16 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>首页 - 淄博广业健康服务有限公司</title>
+        <title>物流 - 淄博广业健康服务有限公司</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/theme-charcoal.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
-
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">  
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">  
     </head>
     <body data-smooth-scroll-offset="77">
         <div class="nav-container">
@@ -62,31 +65,70 @@
             </div>
         </div>
         <div class="main-container">
-            <section class="cover imagebg height-90 text-justify parallax" data-overlay="3">
-                <div class="background-image-holder"> <img alt="background" src="img/01-2.jpg"> </div>
-                <div class="container pos-vertical-center">
+            <section class="text-justify bg--secondary">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-lg-7">
-                            <h1><b>广业健康服务</b><br>专业的医疗技术服务提供商</h1>
+                        <div class="col-md-10 col-lg-8">
+                            <h1><b>物流</b></h1>
                             <p class="lead"><b>
-					我们致力于成为全球医疗技术、服务和解决方案的领导者，与山东淄博周边地市400余家各类医疗机构保持着友善密切的合作，绝大部分是三甲医院。
-				</b></p>
+					规范化冷链运输，安全、高效。
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="cover imagebg text-justify parallax height-90" data-overlay="3">
-                <div class="background-image-holder"> <img alt="background" src="img/24-5.jpg"> </div>
-                <div class="container pos-vertical-center">
+            <!--<section class="bg--secondary">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-lg-7">
-                            <h1><b>广业服务</b></h1>
-                            <p class="lead"><b>
-					医疗产品整体销售方案，全院医疗设备维修解决方案，规范化的冷链运输是广业的三块核心业务。
-				</b></p>
+                        <div class="col">
+                            <div class="slider slider--columns" data-arrows="true" data-paging="true" data-timing="2000">
+                                <ul class="slides">
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-6.jpg" data-lightbox="Gallery 1"> <img alt="Image" src="img/07-1.jpg"> </a>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-6.jpg" data-lightbox="Gallery 1"> <img alt="Image" src="img/07-2.jpg"> </a>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-5.jpg" data-lightbox="Gallery 1"> <img alt="Image" src="img/07-3.jpg"> </a>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-4.jpg" data-lightbox="Gallery 1"> <img alt="Image" src="img/07-4.jpg"> </a>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-3.jpg" data-lightbox="Gallery 1"> <img alt="Image" src="img/07-5.jpg"> </a>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-3.jpg" data-lightbox="Gallery 1"> <img alt="Image" src="img/07-6.jpg"> </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </section>-->
+			<section class="bg--secondary">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="swiper-container swiper-container-horizontal swiper-container-android">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide col-md-6 col-6"><img alt="Image" src="img/07-1.jpg"></div>
+									<div class="swiper-slide col-md-6 col-6"><img alt="Image" src="img/07-2.jpg"></div>
+									<div class="swiper-slide col-md-6 col-6"><img alt="Image" src="img/07-3.jpg"></div>
+									<div class="swiper-slide col-md-6 col-6"><img alt="Image" src="img/07-4.jpg"></div>
+									<div class="swiper-slide col-md-6 col-6"><img alt="Image" src="img/07-5.jpg"></div>
+									<div class="swiper-slide col-md-6 col-6"><img alt="Image" src="img/07-6.jpg"></div>
+								</div>
+								<!-- 如果需要分页器 -->
+								<div class="swiper-pagination swiper-pagination-bullets"></div>
+								
+								<!-- 如果需要导航按钮 -->
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+				</div>
             </section>
             <section class="text-center">
                 <div class="container">
@@ -145,10 +187,60 @@
             </footer>
         </div>
         <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/flickity.min.js"></script>
         <script src="js/parallax.js"></script>
+        <script src="js/lightbox.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.min.js"> </script>
 
     </body>
+		<script>        
+		  var mySwiper = new Swiper ('.swiper-container', {
+			watchSlidesProgress: true,
+			slidesPerView: 'auto',
+			centeredSlides: true,
+			loop: true, // 循环模式选项
+			loopedSlides: 3,
+			autoplay: true,
+			// 如果需要前进后退按钮
+			navigation: {
+			  nextEl: '.swiper-button-next',
+			  prevEl: '.swiper-button-prev',
+			},
+			// 如果需要分页器
+			pagination: {
+			  el: '.swiper-pagination',
+			},
+			on: {
+				progress: function(progress) {
+					for (i = 0; i < this.slides.length; i++) {
+						var slide = this.slides.eq(i);
+						var slideProgress = this.slides[i].progress;
+						modify = 1;
+						if (Math.abs(slideProgress) > 1) {
+							modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+						}
+						translate = slideProgress * modify * 260 + 'px';
+						scale = 1 - Math.abs(slideProgress) / 3;
+						zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+						slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+						slide.css('zIndex', zIndex);
+						slide.css('opacity', 1);
+						if (Math.abs(slideProgress) > 3) {
+							slide.css('opacity', 0);
+						}
+					}
+				},
+				setTransition: function(transition) {
+					for (var i = 0; i < this.slides.length; i++) {
+						var slide = this.slides.eq(i)
+						slide.transition(transition);
+					}
 
+				}
+			}
+		  })        
+		  </script>
+		  <!--111-->
 </html>
